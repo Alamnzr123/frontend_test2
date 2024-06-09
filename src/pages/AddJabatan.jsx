@@ -45,14 +45,12 @@ const AddJabatan = () => {
                         </label>
                         <select
                             className="select select-bordered"
-                            onChange={(e) =>(
+                            onChange={(e) => (
                                 setNewJabatan({
                                     ...newJabatan,
                                     id_department: e.target.value,
                                 })
                             )}
-                            // defaultValue={console.log(karyawan)}
-                            // defaultValue={ karyawan ? karyawan.table_jabatan.id_department : 0 }
                         >
                             <option value="0">Select Department</option>
                             {departments.map((department) => (

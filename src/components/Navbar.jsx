@@ -42,7 +42,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-center">
-                <Link to={'/'} className="btn btn-ghost normal-case text-xl">Immobi Tes</Link>
+                <Link to={'/'} className="btn btn-ghost normal-case text-xl">Test PT.Immobi Solusi Prima - 2024</Link>
             </div>
             <div className="navbar-end">
                 <button className="btn btn-ghost btn-circle">

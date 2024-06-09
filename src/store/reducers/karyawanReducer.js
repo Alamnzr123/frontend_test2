@@ -12,14 +12,13 @@ const initialState = {
 }
 
 export const karyawanReducer = (state = initialState, action) => {
-    switch(action.type) {
+    switch (action.type) {
         case GET_KARYAWANS:
             return {
                 ...state,
                 karyawans: action.payload
             }
         case GET_KARYAWAN:
-            // console.log(action.payload);
             return {
                 ...state,
                 karyawan: action.payload
